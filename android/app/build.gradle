@@ -21,12 +21,6 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
-plugins {
-  id 'com.google.gms.google-services' version '4.3.15' apply false
-  id 'com.android.application'
-  id 'com.google.gms.google-services'
-}
-
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
@@ -70,6 +64,12 @@ android {
 
 flutter {
     source '../..'
+}
+plugins {
+  id 'com.android.application'
+
+  // Add the Google services Gradle plugin
+  id 'com.google.gms.google-services'
 }
 
 dependencies {
