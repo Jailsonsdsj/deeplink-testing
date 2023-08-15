@@ -28,7 +28,7 @@
 		33CC11132044BFA00003C045 /* MainFlutterWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC11122044BFA00003C045 /* MainFlutterWindow.swift */; };
 		7950936C2A86BFE5002C6971 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7950936B2A86BFE5002C6971 /* FirebaseAnalytics */; };
 		7950936E2A86BFE5002C6971 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7950936D2A86BFE5002C6971 /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		795093702A86C876002C6971 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7950936F2A86C876002C6971 /* GoogleService-Info.plist */; };
+		796BCFD72A8BF6C90095D5A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 796BCFD62A8BF6C90095D5A6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		33E51913231747F40026EE4D /* DebugProfile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DebugProfile.entitlements; sourceTree = "<group>"; };
 		33E51914231749380026EE4D /* Release.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Release.entitlements; sourceTree = "<group>"; };
 		33E5194F232828860026EE4D /* AppInfo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppInfo.xcconfig; sourceTree = "<group>"; };
-		7950936F2A86C876002C6971 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		796BCFD62A8BF6C90095D5A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +101,7 @@
 		33CC10E42044A3C60003C045 = {
 			isa = PBXGroup;
 			children = (
-				7950936F2A86C876002C6971 /* GoogleService-Info.plist */,
+				796BCFD62A8BF6C90095D5A6 /* GoogleService-Info.plist */,
 				33FAB671232836740065AC1E /* Runner */,
 				33CEB47122A05771004F2AC0 /* Flutter */,
 				33CC10EE2044A3C60003C045 /* Products */,
@@ -240,8 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CC10F32044A3C60003C045 /* Assets.xcassets in Resources */,
+				796BCFD72A8BF6C90095D5A6 /* GoogleService-Info.plist in Resources */,
 				33CC10F62044A3C60003C045 /* MainMenu.xib in Resources */,
-				795093702A86C876002C6971 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

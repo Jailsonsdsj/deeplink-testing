@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "616323671590",
+    "project_id": "deeplink-test-5a5f4",
+    "storage_bucket": "deeplink-test-5a5f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616323671590:android:e6bbf6ec2944b6d44668e7",
+        "android_client_info": {
+          "package_name": "com.example.firstApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616323671590-48t1q2b104ha6mbfq9aolh8h0afc1lv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnZLCjs-TpRK_pWHiLYdGOIAysCeF8GfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616323671590-48t1q2b104ha6mbfq9aolh8h0afc1lv9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "616323671590-bgbq93759fpf45hjfgj8c6vegjh87c00.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firstApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
